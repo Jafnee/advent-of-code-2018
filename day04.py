@@ -3,7 +3,7 @@ from collections import defaultdict, Counter
 import statistics
 
 
-with open('day4-input.txt', 'r') as input_file:
+with open('day04-input.txt', 'r') as input_file:
     entries = sorted([entry.strip() for entry in input_file])
 
 guards_minutes_slept = defaultdict(list)

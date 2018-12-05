@@ -13,7 +13,7 @@ def claim_parser(claim):
     return tuple(int(x) for x in match.groups())
 
 
-with open('day3-input.txt', 'r') as input_file:
+with open('day03-input.txt', 'r') as input_file:
     claims = [claim_parser(row.strip()) for row in input_file]
 
 # Init fabric

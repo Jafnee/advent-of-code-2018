@@ -1,7 +1,7 @@
 from itertools import cycle
 
 
-with open('day1-input.txt', 'r') as input_file:
+with open('day01-input.txt', 'r') as input_file:
     numbers = [int(num) for num in input_file]
 # pt 1
 print(sum(numbers))

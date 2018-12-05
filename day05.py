@@ -30,7 +30,7 @@ def shortest_length_by_removing(polymer):
 
 
 if __name__ == '__main__':
-    with open('day5-input.txt', 'r') as input_file:
+    with open('day05-input.txt', 'r') as input_file:
         polymer = input_file.readline().strip()
         reacted_polymer = fully_react_polymer(polymer)
         # pt 1

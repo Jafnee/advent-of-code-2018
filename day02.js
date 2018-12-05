@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const ids = fs.readFileSync('day2-input.txt', 'utf8')
+const ids = fs.readFileSync('day02-input.txt', 'utf8')
   .trim()
   .split('\n')
 

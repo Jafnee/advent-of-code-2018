@@ -1,7 +1,7 @@
 from collections import Counter
 
 
-with open('day2-input.txt', 'r') as input_file:
+with open('day02-input.txt', 'r') as input_file:
     ids = [id.strip() for id in input_file]
 
 # For each ID count the number of times each character is found.

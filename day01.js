@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 
-const numbers = fs.readFileSync('day1-input.txt', 'utf8')
+const numbers = fs.readFileSync('day01-input.txt', 'utf8')
   .trim()
   .split('\n')
   .map(Number)
