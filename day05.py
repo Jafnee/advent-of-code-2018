@@ -8,14 +8,14 @@ def fully_react_polymer(polymer):
                 unit2 = polymer[index + 1]
             except IndexError:
                 # reached the end
-                pass
+                continue
             if unit1.lower() == unit2.lower() and unit1 != unit2:
                 del polymer[index:index + 2]
                 # Restart from just before this reaction.
                 start_index = 0 if index == 0 else index - 1
                 break
         else:
-            return polymer
+            return "".join(polymer)
 
 
 def shortest_length_by_removing(polymer):

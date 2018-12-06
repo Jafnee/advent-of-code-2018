@@ -60,6 +60,6 @@ for claim in claims:
         break
 
 # Visuallize the fabric in a spreadsheet
-with open('day3-fabric.csv', 'w') as csv_file:
+with open('day03-fabric.csv', 'w') as csv_file:
     writer = csv.writer(csv_file)
     writer.writerows(fabric)
