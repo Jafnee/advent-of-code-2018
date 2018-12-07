@@ -52,6 +52,7 @@ for claim in claims:
             existing_value = fabric[y + j][x + i]
             if existing_value and existing_value != id:
                 collided = True
+                # wasted effort here, should go to next claim
                 continue
     if not collided:
         # pt 2
